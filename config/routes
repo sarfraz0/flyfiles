@@ -1,0 +1,9 @@
+/static StaticR Static appStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/api/v2/flyfiles/releases/sort SortR GET
+
+/api/v2/flyfiles/rules RuleR POST
+/api/v2/flyfiles/repositories RepositoryR POST

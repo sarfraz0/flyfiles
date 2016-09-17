@@ -1,0 +1,13 @@
+Repository sql=repositories json
+  path String
+  UniquePath path
+  deriving Show
+
+Rule sql=rules json
+  regex Text
+  destination String
+  repo RepositoryId
+  UniqueRule regex repo
+  deriving Show
+
+ -- By default this file is used in Model.hs (which is imported by Foundation.hs)
