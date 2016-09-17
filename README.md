@@ -1,12 +1,12 @@
 FlyFiles
 ========
 
-This little REST API handles the sorting of downloaded shows
+This little REST API handles the sorting of downloaded shows<br />
 I wrote it because I was fed up with the random behaviour of sickrage/sonarr sorting mechanism
 
 # Build
 
-Install stack and the pcre C lib
+Install stack and the pcre C lib<br />
 stack build
 
 # TODO
